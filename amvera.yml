@@ -12,4 +12,3 @@ run:
   scriptName: https://github.com/melnikov7012/masterskaya/app.py
   persistenceMount: https://github.com/melnikov7012/masterskaya
   containerPort: 80
-  servicePort: 80
