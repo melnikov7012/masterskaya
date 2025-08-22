@@ -7,5 +7,5 @@ build:
   requirementsPath: https://github.com/melnikov7012/masterskaya/requirements.txt
 run:
   scriptName: https://github.com/melnikov7012/masterskaya/app.py
-  persistenceMount: /data
+  persistenceMount: https://github.com/melnikov7012/masterskaya
   containerPort: 80
