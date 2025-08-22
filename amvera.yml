@@ -1,0 +1,15 @@
+---
+version: null
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.11
+build:
+  requirementsPath: https://github.com/melnikov7012/masterskaya/requirements.txt
+  useCache: true
+run:
+  scriptName: https://github.com/melnikov7012/masterskaya/app.py
+  persistenceMount: https://github.com/melnikov7012/masterskaya
+  containerPort: 80
+  servicePort: 80
