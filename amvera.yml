@@ -1,0 +1,11 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.8
+build:
+  requirementsPath: https://github.com/melnikov7012/masterskaya/requirements.txt
+run:
+  scriptName: https://github.com/melnikov7012/masterskaya/app.py
+  persistenceMount: /data
+  containerPort: 80
